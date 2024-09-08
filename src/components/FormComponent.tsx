@@ -18,7 +18,7 @@ const FormComponent: React.FC = () => {
     setError(null);
 
     try {
-      const response = await fetch('http://localhost:8000/api/hello/', {
+      const response = await fetch('https://odoobros.pythonanywhere.com/api/hello/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
