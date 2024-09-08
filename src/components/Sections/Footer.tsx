@@ -1,8 +1,6 @@
-import React from "react";
 import styled from "styled-components";
 import { Link } from "react-scroll";
 // Assets
-import LogoImg from "../../assets/svg/Logo";
 
 export default function Contact() {
 
@@ -18,7 +16,7 @@ export default function Contact() {
             <Link className="flexCenter animate pointer" to="home" smooth={true} offset={-80}>
               {/* <LogoImg /> */}
               <h1 className="font15 extraBold whiteColor" style={{ marginLeft: "15px" }}>
-               Odoochat
+                Odoochat
               </h1>
             </Link>
             <StyleP className="whiteColor font13">

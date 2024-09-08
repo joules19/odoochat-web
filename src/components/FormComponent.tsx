@@ -67,7 +67,7 @@ const FormComponent: React.FC = () => {
           {submittedValue && <div className='rounded-lg p-4 border-gray border-[.1px] mt-6 h-auto'>
             <div className='flex gap-3'>
               <div className='flex  justify-center'>
-                <LogoIcon className="logo" />
+                <LogoIcon />
               </div>
               <p className="text-green-500 flex">  {submittedValue}</p>
             </div>
